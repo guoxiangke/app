@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "ninghao.net.drupal"
-	version 	= "1.0.0">
+	id		= "yongbuzhixi.com.app"
+	version 	= "1.0.1">
 
-	<name>Drupal App</name>
+	<name>ybzx</name>
 
 	<description>
 		This is test app for drupal.
 	</description>
 
-	<author href="http://ninghao.net"
-		email="117663444@qq.com">
-		ninghao.net
+	<author href="http://yongbuzhixi.com"
+		email="admin@yongbuzhixi.co">
+		bluesky_still
 	</author>
 
 	<icon src="icon.png" gap:role="default" />
