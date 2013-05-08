@@ -19,6 +19,7 @@ $('#page_node_create_submit').live('click',function(){
         console.log(JSON.stringify(errorThrown));
       },
       success: function (data) {
+       alert('添加成功！');
        $.mobile.changePage("index.html", "slideup");
       }
   });

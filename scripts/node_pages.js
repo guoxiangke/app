@@ -1,7 +1,7 @@
 $('#page_node_pages').live('pageshow',function(){
   try {
     $.ajax({
-      url: "http://guo.dev.camplus.hk/?q=dale_app",
+      url: "http://guo.dev.camplus.hk/?q=app_pages",
       type: 'get',
       dataType: 'json',
       error: function (XMLHttpRequest, textStatus, errorThrown) {

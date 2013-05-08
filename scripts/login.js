@@ -11,12 +11,13 @@ $('#page_login_submit').live('click',function(){
       data: 'username=' + encodeURIComponent(name) + '&password=' + encodeURIComponent(pass),
       dataType: 'json',
       error: function(XMLHttpRequest, textStatus, errorThrown) {
-        alert('登录失败');
+        alert('登录失败！');
         console.log(JSON.stringify(XMLHttpRequest));
         console.log(JSON.stringify(textStatus));
         console.log(JSON.stringify(errorThrown));
       },
       success: function (data) {
+        alert('登录成功！');
        $.mobile.changePage("index.html", "slideup");
       }
   });

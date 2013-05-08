@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "yongbuzhixi.com.app"
+	id		= "yongbuzhixi.com"
 	version 	= "1.0.1">
 
-	<name>ybzx</name>
+	<name>永不止息</name>
 
 	<description>
-		This is test app for drupal.
+		drupal service
 	</description>
 
 	<author href="http://yongbuzhixi.com"

@@ -34,11 +34,11 @@ $('#page_dashboard').live('pageshow',function(){
 $('#button_logout').live("click",function(){
 try {
  $.ajax({
-     url: "http://guo.dev.camplus.hk/?q=dale_service/user/logout.json",
+     url: "http://guo.dev.camplus.hk/?q=app_services/user/logout.json",
      type: 'post',
      dataType: 'json',
      error: function (XMLHttpRequest, textStatus, errorThrown) {
-       alert('button_logout - 注销失败');
+       alert('注销失败');
        console.log(JSON.stringify(XMLHttpRequest));
        console.log(JSON.stringify(textStatus));
        console.log(JSON.stringify(errorThrown));
